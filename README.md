@@ -26,3 +26,30 @@ Inspired by Groot, Guij, and Zhou (2011):
 - **Base performance (2000-2022)** :
   - CAGR: 22%
   - Sharpe Ratio: 0.82
+
+### Identified Pitfalls
+- Weak performance in strong bull markets (e.g., 2016-2021).
+- High contrarian risk during downturns.
+- Liquidity and cost assumptions.
+
+## LPPLS Integration
+The LPPLS model predicts bubbles through:
+1. Faster-than-exponential growth.
+2. Accelerated price oscillations.
+3. Mean-reverting residuals.
+
+These signals help dynamically adjust the trading approach, particularly during unsustainable market surges or corrections.
+
+## Strategy Variants
+**Group A - Changing Aggression**
+- Adjust leverage based on LPPLS signal.
+
+**Group B - Seek Bubble Risk**
+- Hold S&P 500 until bubble is detected, then switch to mean reversion.
+
+**Group C - Avoid Bubble Risk**
+- Use mean reversion until bubble is detected, then switch to S&P 500.
+
+## Key Results
+| **Strategy** | **Period** | **Return** | **Sharpe** |
+| ----------- | ----------- |
