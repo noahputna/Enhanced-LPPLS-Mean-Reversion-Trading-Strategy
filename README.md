@@ -51,6 +51,19 @@ These signals help dynamically adjust the trading approach, particularly during 
 - Use mean reversion until bubble is detected, then switch to S&P 500.
 
 ## Key Results
-| **Strategy**                                  | **Period**  | **Return** | **Sharpe** |
-| --------------------------------------------- | ----------- | ---------- | ---------- |
-| Increase leverage when LPPLS indicates bubble | 2005 - 2010 | 65.2%      | 1.64%      |
+| **Strategy**                                                 | **Period**  | **Return** | **Sharpe** |
+| ------------------------------------------------------------ | ----------- | ---------- | ---------- |
+| Aggresive w/ LPPLS (bubble signal)                           | 2005 - 2010 | 65.2%      | 1.64%      |
+| Aggresive w/ LPPLS (bubble signal)                           | 2016 - 2021 | 1.8%       | 0.18%      |
+| Short-term reversal (baseline)                               | 2016 - 2021 | 3%         | 0.20%      |
+| Hold S&P 500 -> switch to reversal when LPPLS signals bubble | 2016 - 2021 | 6.86%      | 0.37%      |
+| Reversal -> switch to S&P 500 when LPPLS signals bubble      | 2016 - 2021 | 11.9%      | 0.59       |
+
+-  Leverage-based models enhanced performance in volatile periods (2005-2010).
+- LPPLS switching improved Sharpe ratio significantly for 2016-2021 (from 0.2 to 0.58).
+- No negative bubble signals were detected in 2016-2021, limiting signal opportunities.
+
+## Discussion
+- LPPLS models show promise in adapting strategy behaviour based on market conditions.
+- Effective in filtering out weak performance phases of reversal strategies.
+- Useful particularly when short-term reversals underperform due to extended trend persistence.
