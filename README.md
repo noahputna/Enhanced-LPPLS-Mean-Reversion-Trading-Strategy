@@ -51,5 +51,6 @@ These signals help dynamically adjust the trading approach, particularly during 
 - Use mean reversion until bubble is detected, then switch to S&P 500.
 
 ## Key Results
-| **Strategy** | **Period** | **Return** | **Sharpe** |
-| ----------- | ----------- |
+| **Strategy**                                  | **Period**  | **Return** | **Sharpe** |
+| --------------------------------------------- | ----------- | ---------- | ---------- |
+| Increase leverage when LPPLS indicates bubble | 2005 - 2010 | 65.2%      | 1.64%      |
