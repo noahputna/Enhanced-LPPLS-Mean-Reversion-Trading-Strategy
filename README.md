@@ -1,1 +1,1 @@
-# Enhance LPPLS Mean Reversion Trading Strategy
+# Enhanced LPPLS Mean Reversion Trading Strategy
