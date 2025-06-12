@@ -1,5 +1,5 @@
 # Enhanced LPPLS Mean Reversion Trading Strategy
-Algorithmic Trading (FNCE30010)
+Capstone Project as part of Algorithmic Trading (FNCE30010) at The University of Melbourne.
 ## Authors
 - Noah Putna
 - Viktor Myszko
