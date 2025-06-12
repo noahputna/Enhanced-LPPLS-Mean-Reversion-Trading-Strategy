@@ -1,5 +1,5 @@
 # Enhanced LPPLS Mean Reversion Trading Strategy
-
+Algorithmic Trading (FNCE30010)
 ## Authors
 - Noah Putna
 - Viktor Myszko
